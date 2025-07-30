@@ -4,7 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+evdev = "0.13.1"
 rdev = { version = "0.5.3", features=["unstable_grab"] }
+tokio = "1.47.0"
 
 [features]
 default = ["unstable_grab"]
